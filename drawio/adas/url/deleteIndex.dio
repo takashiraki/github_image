@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="oEE3vnFGrzKLfp8lLdis" name="handle">
-        <mxGraphModel dx="2355" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="2347" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -16,8 +16,8 @@
                 <mxCell id="98ZSfpSxamY-V3ixFkOB-42" value="Request&lt;br&gt;Data structure" style="html=1;" parent="1" vertex="1">
                     <mxGeometry x="370" y="340" width="110" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="98ZSfpSxamY-V3ixFkOB-43" value="Response&lt;br&gt;Data structure" style="html=1;" parent="1" vertex="1">
-                    <mxGeometry x="370" y="620" width="110" height="50" as="geometry"/>
+                <mxCell id="98ZSfpSxamY-V3ixFkOB-43" value="Response&lt;br&gt;Data structure&lt;br&gt;&amp;lt;UserCreateResult&amp;gt;" style="html=1;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="620" width="130" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="98ZSfpSxamY-V3ixFkOB-44" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;exitX=0.472;exitY=0.007;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="98ZSfpSxamY-V3ixFkOB-40" target="98ZSfpSxamY-V3ixFkOB-42" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
@@ -166,7 +166,7 @@
                 <mxCell id="98ZSfpSxamY-V3ixFkOB-70" value="&lt;h1&gt;Request data structure&lt;/h1&gt;&lt;div&gt;リクエストのプロパティは&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;・url_id&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="460" y="170" width="310" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="98ZSfpSxamY-V3ixFkOB-71" value="&lt;h1&gt;Response data structure&lt;/h1&gt;&lt;div&gt;レスポンスのプロパティは&lt;/div&gt;&lt;div&gt;・url_summary&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+                <mxCell id="98ZSfpSxamY-V3ixFkOB-71" value="&lt;h1&gt;Response data structure&lt;/h1&gt;&lt;div&gt;レスポンスのプロパティは&lt;/div&gt;&lt;div&gt;・error_code&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="290" y="669" width="310" height="121" as="geometry"/>
                 </mxCell>
                 <mxCell id="98ZSfpSxamY-V3ixFkOB-72" value="&lt;h1&gt;Interctor&lt;/h1&gt;&lt;div&gt;アプリケーションサービスはリクエストからフォームの入力内容を受け取り、IDを使って&lt;/div&gt;&lt;div&gt;・url_idが存在するか否かをドメインサービスに命ずる&lt;/div&gt;&lt;div&gt;その後、url_idからデータの取得&lt;/div&gt;&lt;div&gt;・媒体&lt;/div&gt;&lt;div&gt;・媒体詳細&lt;/div&gt;&lt;div&gt;・LP&lt;/div&gt;&lt;div&gt;・FORM&lt;/div&gt;&lt;div&gt;それぞれのIDが存在するか否かを確認する&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;存在した場合、それぞれのIDから情報の取得をリポジトリに命令する&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
@@ -190,7 +190,7 @@
                         <mxPoint x="540" y="510" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="2" value="UrlSummary" style="html=1;" vertex="1" parent="1">
+                <mxCell id="2" value="UrlSummary" style="html=1;" parent="1" vertex="1">
                     <mxGeometry x="890" y="200" width="110" height="50" as="geometry"/>
                 </mxCell>
             </root>
