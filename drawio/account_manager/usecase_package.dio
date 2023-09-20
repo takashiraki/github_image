@@ -1,0 +1,37 @@
+<mxfile host="65bd71144e">
+    <diagram id="x2eFTlnHeFGsjurBSuzS" name="ページ1">
+        <mxGraphModel dx="1396" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="310" width="760" height="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="一般" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="340" width="150" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="・ログインする&lt;br&gt;・ログアウトする&lt;br&gt;・パスワード忘れた場合の&lt;br&gt;　メールを送信する&lt;br&gt;&lt;br&gt;アクター&lt;br&gt;・従業員&lt;br&gt;・管理者" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;align=left;verticalAlign=top;" vertex="1" parent="3">
+                    <mxGeometry width="150" height="200" relative="1" as="geometry">
+                        <mxPoint y="30" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="管理" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;" vertex="1" parent="1">
+                    <mxGeometry x="339" y="340" width="150" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="・アカウント情報の登録&lt;br&gt;・アカウント情報の編集&lt;br&gt;・アカウント情報の削除&lt;br&gt;・アカウント情報の検索&lt;br&gt;&lt;br&gt;・従業員情報の登録&lt;br&gt;・従業員情報の編集&lt;br&gt;・従業員ステータスの変更&lt;br&gt;・従業員情報の削除&lt;br&gt;&lt;br&gt;アクター&lt;br&gt;管理者" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;align=left;verticalAlign=top;" vertex="1" parent="5">
+                    <mxGeometry width="150" height="200" relative="1" as="geometry">
+                        <mxPoint y="30" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="貸与" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="340" width="150" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="・貸与一覧のの表示&lt;br&gt;・従業員別貸与一覧の表示&lt;br&gt;・アカウント情報貸与&lt;br&gt;・アカウント情報貸与解除&lt;br&gt;&lt;br&gt;アクター&lt;br&gt;・管理者" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;align=left;verticalAlign=top;" vertex="1" parent="7">
+                    <mxGeometry width="150" height="200" relative="1" as="geometry">
+                        <mxPoint y="30" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
