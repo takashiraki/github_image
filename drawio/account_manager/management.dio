@@ -1,0 +1,127 @@
+<mxfile host="65bd71144e">
+    <diagram id="SGvS32WQ4NayJtuChOap" name="ページ1">
+        <mxGraphModel dx="1396" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="40" width="930" height="640" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="管理者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="110" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="管理" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="50" width="150" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="・アカウント情報の登録&lt;br&gt;・アカウント情報の編集&lt;br&gt;・アカウント情報の削除&lt;br&gt;・アカウント情報の検索&lt;br&gt;&lt;br&gt;・従業員情報の登録&lt;br&gt;・従業員情報の編集&lt;br&gt;・従業員ステータスの変更&lt;br&gt;・従業員情報の削除&lt;br&gt;&lt;br&gt;アクター&lt;br&gt;管理者" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;align=left;verticalAlign=top;" vertex="1" parent="7">
+                    <mxGeometry width="150" height="200" relative="1" as="geometry">
+                        <mxPoint y="30" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="従業員情報を登録" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="200" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&amp;lt;&amp;lt;precedes&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;" edge="1" parent="1" source="9" target="14">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="430.7904397708412" y="-223.66968115333862" as="sourcePoint"/>
+                        <mxPoint x="600" y="155" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="&amp;lt;&amp;lt;inokes&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;" edge="1" parent="1" source="9" target="13">
+                    <mxGeometry x="-0.0001" width="160" relative="1" as="geometry">
+                        <mxPoint x="240" y="490" as="sourcePoint"/>
+                        <mxPoint x="350" y="490" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="従業員情報が保存" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="456" y="70" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="従業員情報の編集" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="706" y="80" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="従業員情報の削除" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="310" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="従業員情報の検索" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="706" y="200" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&amp;lt;&amp;lt;precedes&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;" edge="1" parent="1" source="9" target="15">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="476.1031659151265" y="211.62661715956938" as="sourcePoint"/>
+                        <mxPoint x="638.0277415623855" y="138.44613162599126" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="&amp;lt;&amp;lt;precedes&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;" edge="1" parent="1" source="9" target="16">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="493.29646455628153" y="230.05025253169424" as="sourcePoint"/>
+                        <mxPoint x="620.7782775625667" y="220.20464078476948" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="従業員情報を登録" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="324" y="400" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&amp;lt;&amp;lt;precedes&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;" edge="1" parent="1" source="19" target="23">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="430.7904397708412" y="-33.669681153338615" as="sourcePoint"/>
+                        <mxPoint x="600" y="345" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="&amp;lt;&amp;lt;inokes&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;" edge="1" parent="1" source="19" target="22">
+                    <mxGeometry x="-0.0001" width="160" relative="1" as="geometry">
+                        <mxPoint x="240" y="680" as="sourcePoint"/>
+                        <mxPoint x="350" y="680" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="従業員情報が保存" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="500" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="従業員情報の編集" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="590" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="従業員情報の削除" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="590" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="従業員情報の検索" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="440" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="&amp;lt;&amp;lt;precedes&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;" edge="1" parent="1" source="19" target="24">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="476.1031659151265" y="401.6266171595694" as="sourcePoint"/>
+                        <mxPoint x="638.0277415623855" y="328.44613162599126" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="&amp;lt;&amp;lt;precedes&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;" edge="1" parent="1" source="19" target="25">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="493.29646455628153" y="420.05025253169424" as="sourcePoint"/>
+                        <mxPoint x="620.7782775625667" y="410.2046407847695" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="ログインする" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="260" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="&amp;lt;&amp;lt;precedes&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;" edge="1" parent="1" source="28" target="9">
+                    <mxGeometry x="-0.1364" y="-3" width="160" relative="1" as="geometry">
+                        <mxPoint x="572.1031659151345" y="221.62661715956574" as="sourcePoint"/>
+                        <mxPoint x="500" y="240" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="&amp;lt;&amp;lt;precedes&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;" edge="1" parent="1" source="28" target="19">
+                    <mxGeometry x="-0.1364" y="-3" width="160" relative="1" as="geometry">
+                        <mxPoint x="370.9774715960423" y="287.8117194158806" as="sourcePoint"/>
+                        <mxPoint x="459.222980051288" y="262.36486284248895" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="28" target="3">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="110" y="410" as="sourcePoint"/>
+                        <mxPoint x="160" y="360" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
