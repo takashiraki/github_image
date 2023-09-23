@@ -1,262 +1,428 @@
 <mxfile host="65bd71144e">
     <diagram id="8VzVeXYNuycdVjch8Qh3" name="ページ1">
-        <mxGraphModel dx="1642" dy="1093" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1510" dy="1041" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="40" y="120" width="1020" height="840" as="geometry"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="125" width="1480" height="1005" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-                    <mxGeometry x="80" y="480" width="30" height="60" as="geometry"/>
+                <mxCell id="3" value="admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="415" width="30" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="ログイン&lt;br&gt;ページ" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="220" y="470" width="100" height="80" as="geometry"/>
+                <mxCell id="4" value="ログイン&lt;br&gt;ページ" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="555" width="100" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="5" target="4">
+                <mxCell id="11" value="" style="edgeStyle=none;html=1;" parent="1" source="5" target="4" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="ログインページを表示する" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="110" y="310" width="70" height="80" as="geometry"/>
+                <mxCell id="5" value="ログインページを表示する" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="705" width="70" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="メアドとパスワードを入力" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="400" y="330" width="70" height="80" as="geometry"/>
+                <mxCell id="8" value="メアドとパスワードを入力" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="405" width="70" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="9" target="16">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="20" value="" style="edgeStyle=none;html=1;" parent="1" source="9" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="951" y="565" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="21" value="存在する" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="20">
+                <mxCell id="21" value="存在する" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="20" vertex="1" connectable="0">
                     <mxGeometry x="-0.04" y="2" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="9" value="アカウントの存在は？" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="560" y="420" width="70" height="80" as="geometry"/>
+                <mxCell id="9" value="アカウントの存在は？" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="840" y="430" width="70" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="4" target="3">
+                <mxCell id="12" value="" style="endArrow=none;html=1;" parent="1" source="4" target="3" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="320" y="500" as="sourcePoint"/>
-                        <mxPoint x="370" y="450" as="targetPoint"/>
+                        <mxPoint x="500" y="559" as="sourcePoint"/>
+                        <mxPoint x="650" y="535" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="13" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="8" target="4">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="230" y="522.8571428571429" as="sourcePoint"/>
-                        <mxPoint x="120" y="529.1428571428571" as="targetPoint"/>
+                <mxCell id="78" value="ログイン情報を&lt;br&gt;入力する" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="12" vertex="1" connectable="0">
+                    <mxGeometry x="0.2319" y="-4" relative="1" as="geometry">
+                        <mxPoint x="8" y="17" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="14" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="9" target="8">
+                <mxCell id="13" value="" style="endArrow=none;html=1;" parent="1" source="8" target="4" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="433.28359010016493" y="436.91541861324504" as="sourcePoint"/>
-                        <mxPoint x="330" y="492.9729729729729" as="targetPoint"/>
+                        <mxPoint x="510" y="607.8571428571429" as="sourcePoint"/>
+                        <mxPoint x="400" y="614.1428571428571" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="15" value="Clicl login buton" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="14">
+                <mxCell id="14" value="" style="endArrow=none;html=1;" parent="1" source="93" target="8" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="713.2835901001649" y="521.915418613245" as="sourcePoint"/>
+                        <mxPoint x="610" y="577.9729729729729" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="Clicl login buton" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="14" vertex="1" connectable="0">
                     <mxGeometry x="0.2001" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="23" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="16" target="22">
+                <mxCell id="23" value="" style="edgeStyle=none;html=1;" parent="1" source="16" target="22" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" value="正しくない" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="23">
+                <mxCell id="28" value="正しくない" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="23" vertex="1" connectable="0">
                     <mxGeometry x="-0.0859" y="-1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="16" value="パスワードは正しい？" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);" vertex="1" parent="1">
-                    <mxGeometry x="560" y="585" width="70" height="80" as="geometry"/>
+                <mxCell id="16" value="パスワードは正しい？" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);" parent="1" vertex="1">
+                    <mxGeometry x="840" y="670" width="70" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="3回ログイン失敗？" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
-                    <mxGeometry x="350" y="585" width="70" height="80" as="geometry"/>
+                <mxCell id="22" value="3回ログイン失敗？" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" parent="1" vertex="1">
+                    <mxGeometry x="630" y="670" width="70" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="リポジトリ" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);" vertex="1" parent="1">
-                    <mxGeometry x="690" y="340" width="70" height="80" as="geometry"/>
+                <mxCell id="25" value="アカウント&lt;br&gt;リポジトリ" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);" parent="1" vertex="1">
+                    <mxGeometry x="1060" y="385" width="70" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="26" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="25" target="9">
+                <mxCell id="26" value="" style="endArrow=none;html=1;" parent="1" source="25" target="9" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="416.9712788290242" y="403.95617194100464" as="sourcePoint"/>
-                        <mxPoint x="327.1428571428571" y="480" as="targetPoint"/>
+                        <mxPoint x="696.9712788290242" y="488.95617194100464" as="sourcePoint"/>
+                        <mxPoint x="607.1428571428571" y="565" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="27" value="存在しない" style="edgeStyle=none;html=1;" edge="1" parent="1" source="9" target="22">
+                <mxCell id="88" value="問い合わせ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="26" vertex="1" connectable="0">
+                    <mxGeometry x="-0.3001" y="1" relative="1" as="geometry">
+                        <mxPoint x="-11" y="6" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="存在しない" style="edgeStyle=none;html=1;" parent="1" source="9" target="22" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="570" y="635" as="sourcePoint"/>
-                        <mxPoint x="430" y="635" as="targetPoint"/>
+                        <mxPoint x="850" y="720" as="sourcePoint"/>
+                        <mxPoint x="710" y="720" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="29" value="いいえ" style="edgeStyle=none;html=1;" edge="1" parent="1" source="22" target="4">
+                <mxCell id="29" value="いいえ" style="edgeStyle=none;html=1;" parent="1" source="22" target="95" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="178.20623358537478" y="389.9435272069352" as="sourcePoint"/>
-                        <mxPoint x="248.75" y="480" as="targetPoint"/>
+                        <mxPoint x="458.2062335853748" y="474.9435272069352" as="sourcePoint"/>
+                        <mxPoint x="528.75" y="565" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="30" value="アカウントロック" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
-                    <mxGeometry x="350" y="840" width="70" height="80" as="geometry"/>
+                <mxCell id="30" value="アカウントロック" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" parent="1" vertex="1">
+                    <mxGeometry x="630" y="925" width="70" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" value="はい" style="edgeStyle=none;html=1;" edge="1" parent="1" source="22" target="30">
+                <mxCell id="31" value="はい" style="edgeStyle=none;html=1;" parent="1" source="22" target="30" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="368.6598156852592" y="608.6598156852592" as="sourcePoint"/>
-                        <mxPoint x="320" y="560" as="targetPoint"/>
+                        <mxPoint x="648.6598156852592" y="693.6598156852592" as="sourcePoint"/>
+                        <mxPoint x="600" y="645" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="32" value="アカウント情報取得" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);" vertex="1" parent="1">
-                    <mxGeometry x="810" y="505" width="70" height="80" as="geometry"/>
+                <mxCell id="32" value="アカウント情報取得" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);" parent="1" vertex="1">
+                    <mxGeometry x="1130" y="825" width="70" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="34" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="25" target="32">
+                <mxCell id="34" value="" style="endArrow=none;html=1;" parent="1" source="25" target="32" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="704.1922590580098" y="408.98254744910537" as="sourcePoint"/>
-                        <mxPoint x="635.816488497281" y="451.03600707859664" as="targetPoint"/>
+                        <mxPoint x="984.1922590580098" y="493.98254744910537" as="sourcePoint"/>
+                        <mxPoint x="915.816488497281" y="536.0360070785966" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="36" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="32" target="64">
+                <mxCell id="36" value="" style="endArrow=none;html=1;" parent="1" source="32" target="64" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="735" y="430" as="sourcePoint"/>
-                        <mxPoint x="725" y="730" as="targetPoint"/>
+                        <mxPoint x="1015" y="515" as="sourcePoint"/>
+                        <mxPoint x="1005" y="815" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="37" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="30" target="64">
+                <mxCell id="37" value="" style="endArrow=none;html=1;" parent="1" source="30" target="64" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="735" y="590" as="sourcePoint"/>
-                        <mxPoint x="690.0000000000005" y="770" as="targetPoint"/>
+                        <mxPoint x="1015" y="675" as="sourcePoint"/>
+                        <mxPoint x="970.0000000000005" y="855" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="38" value="パスワード忘れリンククリック" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
-                    <mxGeometry x="235" y="240" width="70" height="80" as="geometry"/>
+                <mxCell id="38" value="パスワード忘れリンククリック" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" parent="1" vertex="1">
+                    <mxGeometry x="515" y="325" width="70" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="39" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="4" target="38">
+                <mxCell id="39" value="" style="endArrow=none;html=1;" parent="1" source="4" target="38" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="416.9712788290242" y="403.95617194100464" as="sourcePoint"/>
-                        <mxPoint x="327.1428571428571" y="480" as="targetPoint"/>
+                        <mxPoint x="696.9712788290242" y="488.95617194100464" as="sourcePoint"/>
+                        <mxPoint x="607.1428571428571" y="565" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="40" value="メールアドレス入力ページ" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
-                    <mxGeometry x="360" y="140" width="70" height="80" as="geometry"/>
+                <mxCell id="40" value="メールアドレス入力ページを表示" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" parent="1" vertex="1">
+                    <mxGeometry x="650" y="295" width="70" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="41" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="38" target="40">
+                <mxCell id="41" value="" style="endArrow=none;html=1;" parent="1" source="38" target="40" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="280" y="480" as="sourcePoint"/>
-                        <mxPoint x="280" y="330" as="targetPoint"/>
+                        <mxPoint x="560" y="565" as="sourcePoint"/>
+                        <mxPoint x="560" y="415" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="42" value="メールアドレス入力" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
-                    <mxGeometry x="480" y="140" width="70" height="80" as="geometry"/>
+                <mxCell id="43" value="メールアドレはある？" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" parent="1" vertex="1">
+                    <mxGeometry x="880" y="225" width="70" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="43" value="メールアドレはある？" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
-                    <mxGeometry x="600" y="140" width="70" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="44" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="40" target="42">
+                <mxCell id="45" value="" style="endArrow=none;html=1;" parent="1" source="74" target="43" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="308.64856105943477" y="267.0214666502452" as="sourcePoint"/>
-                        <mxPoint x="376.32688278183355" y="212.9384937745333" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="45" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="42" target="43">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="440" y="190" as="sourcePoint"/>
-                        <mxPoint x="490" y="190" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="46" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="43" target="48">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="605" y="510" as="sourcePoint"/>
-                        <mxPoint x="605" y="595" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="47" value="存在する" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="46">
-                    <mxGeometry x="-0.04" y="2" relative="1" as="geometry">
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="48" value="メールアドレはある？" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
-                    <mxGeometry x="810" y="140" width="70" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="49" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="43" target="40">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="680.0000000000146" y="190" as="sourcePoint"/>
-                        <mxPoint x="760" y="190" as="targetPoint"/>
+                        <mxPoint x="830" y="265" as="sourcePoint"/>
+                        <mxPoint x="770" y="275" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="510" y="270"/>
+                            <mxPoint x="730" y="275"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="50" value="存在しない" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="49">
+                <mxCell id="81" value="パスワードリセットを&lt;br&gt;リクエストボタン押下" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="45" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1955" y="-2" relative="1" as="geometry">
+                        <mxPoint x="21" y="5" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" value="" style="edgeStyle=none;html=1;" parent="1" source="43" target="54" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="885" y="595" as="sourcePoint"/>
+                        <mxPoint x="1090" y="265" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="存在する" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="46" vertex="1" connectable="0">
                     <mxGeometry x="-0.04" y="2" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="51" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="48" target="25">
+                <mxCell id="51" value="" style="endArrow=none;html=1;" parent="1" source="43" target="25" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="704.0909498190003" y="408.766209038464" as="sourcePoint"/>
-                        <mxPoint x="635.7849805932951" y="450.96928472414515" as="targetPoint"/>
+                        <mxPoint x="1105.2334057363378" y="298.01021242031584" as="sourcePoint"/>
+                        <mxPoint x="915.7849805932951" y="535.9692847241452" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="52" value="パスワードリセット情報保存" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
-                    <mxGeometry x="860" y="400" width="70" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="53" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="48" target="52">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="835.1429965245816" y="222.93926458863507" as="sourcePoint"/>
-                        <mxPoint x="754.6608793496835" y="356.9074307975625" as="targetPoint"/>
+                <mxCell id="83" value="リポジトリに問い合わせ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="51" vertex="1" connectable="0">
+                    <mxGeometry x="-0.2299" relative="1" as="geometry">
+                        <mxPoint x="-8" y="15" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="54" value="メール送信" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
-                    <mxGeometry x="960" y="300" width="70" height="80" as="geometry"/>
+                <mxCell id="52" value="パスワードリセット情報保存" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" parent="1" vertex="1">
+                    <mxGeometry x="1160" y="385" width="70" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="57" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="48" target="54">
+                <mxCell id="53" value="" style="endArrow=none;html=1;" parent="1" source="54" target="52" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1132.4608476325702" y="304.08063045631934" as="sourcePoint"/>
+                        <mxPoint x="1034.6608793496835" y="441.9074307975625" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="メール送信" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" parent="1" vertex="1">
+                    <mxGeometry x="1080" y="225" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="" style="endArrow=none;html=1;" parent="1" source="84" target="52" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1142.5206605501826" y="314.0656534134491" as="sourcePoint"/>
+                        <mxPoint x="1177.571387748238" y="495.91134981810933" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="85" value="リセット情報保存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="61" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1722" y="-4" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="64" value="アカウント" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="1310" y="925" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="従業員情報の取得" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);" parent="1" vertex="1">
+                    <mxGeometry x="1030" y="670" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="セッションの開始" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);" parent="1" vertex="1">
+                    <mxGeometry x="1030" y="805" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="" style="edgeStyle=none;html=1;" parent="1" source="16" target="65" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="178.19800472165412" y="389.95185419757854" as="sourcePoint"/>
-                        <mxPoint x="248.75" y="480" as="targetPoint"/>
+                        <mxPoint x="850.0000000000005" y="720" as="sourcePoint"/>
+                        <mxPoint x="710" y="720" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="61" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="25" target="52">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="862.5206605501826" y="229.06565341344913" as="sourcePoint"/>
-                        <mxPoint x="897.5713877482381" y="410.91134981810933" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="64" value="アカウント" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
-                    <mxGeometry x="850" y="840" width="80" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="65" value="従業員情報の取得" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);" vertex="1" parent="1">
-                    <mxGeometry x="750" y="585" width="70" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="66" value="セッションの開始" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);" vertex="1" parent="1">
-                    <mxGeometry x="750" y="720" width="70" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="67" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="16" target="65">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="570.0000000000005" y="635" as="sourcePoint"/>
-                        <mxPoint x="430" y="635" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="68" value="正しい" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="67">
+                <mxCell id="68" value="正しい" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="67" vertex="1" connectable="0">
                     <mxGeometry x="-0.0859" y="-1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="69" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="65" target="66">
+                <mxCell id="69" value="" style="edgeStyle=none;html=1;" parent="1" source="65" target="66" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="178.19800472165412" y="389.95185419757854" as="sourcePoint"/>
-                        <mxPoint x="248.75" y="480" as="targetPoint"/>
+                        <mxPoint x="458.1980047216541" y="474.95185419757854" as="sourcePoint"/>
+                        <mxPoint x="528.75" y="565" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="70" value="ダッシュボードを表示" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);" vertex="1" parent="1">
-                    <mxGeometry x="610" y="720" width="70" height="80" as="geometry"/>
+                <mxCell id="70" value="ダッシュボードを表示" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);" parent="1" vertex="1">
+                    <mxGeometry x="890" y="805" width="70" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="71" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="66" target="70">
+                <mxCell id="71" value="" style="edgeStyle=none;html=1;" parent="1" source="66" target="70" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="795" y="675" as="sourcePoint"/>
-                        <mxPoint x="795" y="730" as="targetPoint"/>
+                        <mxPoint x="1075" y="760" as="sourcePoint"/>
+                        <mxPoint x="1075" y="815" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="72" value="ダッシュボード" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="430" y="720" width="100" height="80" as="geometry"/>
+                <mxCell id="72" value="ダッシュボード" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="710" y="805" width="100" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="73" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="70" target="72">
+                <mxCell id="73" value="" style="endArrow=none;html=1;" parent="1" source="70" target="72" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="416.91597326713554" y="403.87142272293477" as="sourcePoint"/>
-                        <mxPoint x="327.14285714285734" y="480" as="targetPoint"/>
+                        <mxPoint x="696.9159732671355" y="488.87142272293477" as="sourcePoint"/>
+                        <mxPoint x="607.1428571428573" y="565" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="74" value="メールアドレス入力ページ" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=#cccccc;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="175" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="" style="endArrow=none;html=1;" parent="1" source="3" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="370" y="436.53846153846143" as="sourcePoint"/>
+                        <mxPoint x="517.5" y="255" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="77" value="メールアドレスを入力し、&lt;br&gt;リセットリクエストボタン押下" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="76" vertex="1" connectable="0">
+                    <mxGeometry x="0.1141" y="-4" relative="1" as="geometry">
+                        <mxPoint x="-15" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="79" value="" style="endArrow=none;html=1;" parent="1" source="40" target="74" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="588.6485610594227" y="352.02146665025475" as="sourcePoint"/>
+                        <mxPoint x="656.3268827818335" y="297.9384937745335" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="82" value="存在しない" style="edgeStyle=none;html=1;" parent="1" source="43" target="74" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="856.1445850687105" y="577.6379498355975" as="sourcePoint"/>
+                        <mxPoint x="703.8414673469779" y="697.3388470845175" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="750" y="195"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="84" value="パスワード&lt;br&gt;リセット&lt;br&gt;リポジトリ" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);" parent="1" vertex="1">
+                    <mxGeometry x="1160" y="565" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="アカウント&lt;br&gt;ロックページ表示" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="925" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="アカウントロックページ" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=#cccccc;" parent="1" vertex="1">
+                    <mxGeometry x="375" y="825" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="" style="endArrow=none;html=1;" parent="1" source="89" target="98" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="559.9999999999998" y="565" as="sourcePoint"/>
+                        <mxPoint x="559.9999999999998" y="415" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="92" value="" style="endArrow=none;html=1;" parent="1" source="30" target="89" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="500.14792899408326" y="946.834319526628" as="sourcePoint"/>
+                        <mxPoint x="470.9999999999998" y="915" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="93" value="文字数は256文字以内？" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="780" y="325" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="はい" style="edgeStyle=none;html=1;" parent="1" source="93" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="856.1420326574676" y="577.6336998764959" as="sourcePoint"/>
+                        <mxPoint x="703.8320117965407" y="697.3231367892372" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="95" value="エラーメッセージ付きログインページを表示" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" parent="1" vertex="1">
+                    <mxGeometry x="630" y="505" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="いいえ" style="edgeStyle=none;html=1;" parent="1" source="93" target="22" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="683.1177557507472" y="681.090756918833" as="sourcePoint"/>
+                        <mxPoint x="695.6343333507223" y="623.8405951573607" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="97" value="" style="endArrow=none;html=1;" parent="1" source="95" target="4" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="625.9894897193892" y="488.5852348290788" as="sourcePoint"/>
+                        <mxPoint x="582.6666666666667" y="565" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="98" value="登録メールアドレスへメール送信" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" parent="1" vertex="1">
+                    <mxGeometry x="530" y="825" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="" style="endArrow=none;html=1;" parent="1" source="98" target="90" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="539.804484578209" y="938.7545377567983" as="sourcePoint"/>
+                        <mxPoint x="560.097103728463" y="891.1927480880183" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="101" value="アカウントロックリポジトリ" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);" parent="1" vertex="1">
+                    <mxGeometry x="970" y="1020" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="アカウント&lt;br&gt;ステータス" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="1310" y="1020" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="パスワード&lt;br&gt;リセット" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="1310" y="805" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="" style="endArrow=none;html=1;" parent="1" source="84" target="103" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1034.9821657755356" y="507.84025505718364" as="sourcePoint"/>
+                        <mxPoint x="1159.9593976912274" y="712.2062871310995" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="105" value="" style="endArrow=none;html=1;" parent="1" source="102" target="101" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1240" y="614.9999999999998" as="sourcePoint"/>
+                        <mxPoint x="1320" y="614.9999999999998" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="106" value="" style="endArrow=none;html=1;" parent="1" source="30" target="101" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1250" y="624.9999999999998" as="sourcePoint"/>
+                        <mxPoint x="1330" y="624.9999999999998" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="107" value="アカウントロックはされている？" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="970" y="555" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="" style="edgeStyle=none;html=1;" parent="1" source="107" target="16" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="908.4461316259753" y="509.69843339290196" as="sourcePoint"/>
+                        <mxPoint x="961" y="574.9999999999998" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="110" value="されていない" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="109" vertex="1" connectable="0">
+                    <mxGeometry x="-0.04" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="111" value="" style="edgeStyle=none;html=1;" parent="1" source="107" target="114" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="960.2761983950124" y="633.3127405476471" as="sourcePoint"/>
+                        <mxPoint x="909.6452071836607" y="691.5979014773673" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="112" value="されている" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="111" vertex="1" connectable="0">
+                    <mxGeometry x="-0.04" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="113" value="" style="endArrow=none;html=1;" parent="1" source="107" target="101" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="709.290737441225" y="983.0118545423422" as="sourcePoint"/>
+                        <mxPoint x="980.7190034860178" y="1046.933883173181" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="114" value="アカウントロックペーぞ表示" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" parent="1" vertex="1">
+                    <mxGeometry x="515" y="645" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="" style="endArrow=none;html=1;" parent="1" source="114" target="90" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="540.0000000000002" y="875.0000000000002" as="sourcePoint"/>
+                        <mxPoint x="485.0000000000002" y="875.0000000000002" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="116" value="従業員&lt;br&gt;リポジトリ" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);" vertex="1" parent="1">
+                    <mxGeometry x="1160" y="670" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="従業員" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="1310" y="670" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="65" target="116">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1111.2003549410101" y="474.36733295879276" as="sourcePoint"/>
+                        <mxPoint x="1168.7390096630006" y="835.6452035960028" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="119" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="116" target="117">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1110" y="720" as="sourcePoint"/>
+                        <mxPoint x="1190" y="720" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
             </root>
